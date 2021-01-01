@@ -1,5 +1,4 @@
 ---
-epel_repo_url: "https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm"
-epel_repo_gpg_key_url: "https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-{{ ansible_distribution_major_version }}"
-epel_repofile_path: "/etc/yum.repos.d/epel.repo"
-epel_repo_disable: false
+centos_repo_url: "http://ftp.heanet.ie/pub/centos/{{ ansible_distribution_major_version }}/os/{{ ansible_userspace_architecture }}"
+centos_repo_gpg_key_url: "http://ftp.heanet.ie/pub/centos/{{ ansible_distribution_major_version }}/os/{{ ansible_userspace_architecture }}/RPM-GPG-KEY-CentOS-{{ ansible_distribution_major_version }}"
+centos_repo_disable: false

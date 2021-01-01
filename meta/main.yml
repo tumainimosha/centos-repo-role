@@ -4,9 +4,8 @@ dependencies: []
 galaxy_info:
   # See: https://github.com/ansible/galaxy/issues/2393
   # role_name: repo-epel
-  author: geerlingguy
-  description: EPEL repository for RHEL/CentOS.
-  company: "Midwestern Mac, LLC"
+  author: tumainimosha
+  description: Centos repository for RHEL.
   license: "license (BSD, MIT)"
   min_ansible_version: 2.5
   platforms:
@@ -16,7 +15,6 @@ galaxy_info:
         - 8
   galaxy_tags:
     - packaging
-    - epel
     - repository
     - repo
     - redhat
